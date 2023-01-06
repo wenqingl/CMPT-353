@@ -1,0 +1,6 @@
+1.  The residual are close-enough to being normal.
+    The slop of the linear regression is positive,
+    and the p-value is less than 0.05, which is significant.
+    So, the ratings are increasing
+
+2.  The new “better” prediction is letting the Kalman filter do a better job

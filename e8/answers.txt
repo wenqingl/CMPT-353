@@ -1,0 +1,5 @@
+1.  kNN classifier because the size of data is small nonlinear, and noise-free.
+    They aims for different application.
+
+2.  They are reasonable. The wrong cities' weather/location is similar to the true cities.
+    wind / sun.
