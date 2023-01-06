@@ -1,0 +1,4 @@
+Yue Zhao：collect data, clean data, code for prediction models
+Wenqing Liu：collect data, clean data, code for question two
+Yuling Su: code for question one and question three
+All: report write

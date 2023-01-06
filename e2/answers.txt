@@ -1,0 +1,6 @@
+1. The result of data['prediction'] = data['timestamp']*fit.slope + fit.intercept is a linear regression line (best fit line), which make prediction for rating with equation y = ax + b. a as the slope, b as the intersect and y as the predicted value.
+The type of data['timestamp']*fit.slope + fit.intercept is Series. For each value, the type is float64.
+
+ 2. We use the linear regress function to handle the series data and build a regression line to predict the data. The line could show the relation between the rating and date.
+The 'timestamp'(float64) is actually converted from 'created_at'(timestamp) by using the data['timestamp'] = data['created_at'].apply(to_timestamp) function. In fact, they have the same value but only different types.
+

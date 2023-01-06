@@ -1,0 +1,6 @@
+1.  When smoothing the CPU temperature, I think I got a better result with Kalman smoothing.
+    Kalman smoothing works better at expressing trends. When the temperature rises and falls 
+    in a short period of time, it can show the trend. However, LOESS will smooth out this trend.
+
+2.  With accelerator, it's easy to know about the velocity. With gyroscope, it's easy to know the 
+    direction. We could have a better prediction with these accurate data.

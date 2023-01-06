@@ -1,0 +1,9 @@
+1.  Transforming data with np.sqrt is the closest to satisfying the assumptions of a T-test
+
+2.  If the null hypothesis is rejected  in those tests, we can conclude that there is a 
+    different number of Reddit comments posted on weekdays than on weekends
+
+3.  The U test may do a better job because the normally-distribution and equal variance
+    are not required.
+
+4.  There are more comments on weekdays

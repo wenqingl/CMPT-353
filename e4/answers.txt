@@ -1,0 +1,9 @@
+1.  I think it is not a good way to predict population density,
+    because the figure does not show any relationship between
+    population density and daily temperatures. There is no pattern, 
+    only a cluster between 5 to 30 degree.
+
+2.  One reason is that we can read the compressed data directly with 
+    Pandas and it will automatically decompress as needed. It may use
+    some advanced algorithm to speed the process. Or, it could depends
+    on the storage, like disk / memory .

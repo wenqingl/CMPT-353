@@ -1,0 +1,64 @@
+data 1
+              x          y
+mean   8.717696  12.522874
+std   12.155517   6.639964
+min  -22.635878  -2.565088
+max   35.237055  27.384153
+
+correlation coefficient:  0.9503256954375483
+For data set 1, the x has smaller mean than y, larger std and range, and they have a strong, positive linear relationship.
+
+
+data 2
+              x          y
+mean  -0.710787  -0.748987
+std   11.481584   6.257918
+min  -33.271113 -18.621804
+max   27.647000  14.147315
+
+correlation coefficient:  0.9551531665750373
+For data set 2, x and y has similar mean, but x has larger std and range, and they have a strong, positive linear relationship.
+
+
+data 3
+             x          y
+mean  0.968907   8.508535
+std   2.235558   1.149301
+min  -2.449064   6.641734
+max   4.518885  10.551871
+
+correlation coefficient:  0.981937264676066
+For data set 3, x has a smaller mean than y, relatively larger std and range, and they have a strong, positive linear relationship.
+
+
+data 4
+              x          y
+mean  49.905086  18.553837
+std   28.508611  16.545896
+min    0.000000   0.000000
+max   87.376700  44.565040
+
+correlation coefficient:  -0.08119306735490815
+For data set 4, x has much larger mean, std, and range with same min, and they have a weak, negative linear relationship.
+
+
+data 5
+              x          y
+mean  49.909994  18.555525
+std   28.500001  16.540796
+min    4.337892   0.055498
+max   91.052863  49.934197
+
+correlation coefficient:  -0.08823598983058888
+For data set 5, x has larger mean, std, and range than y, and they have a weak, negative linear relationship
+
+
+data 6
+              x          y
+mean   7.216155   7.602215
+std   11.921599  11.764382
+min  -24.333821 -22.956357
+max   35.402139  36.079874
+
+correlation coefficient:  0.9350685662094906
+For data set 6, x and y have similar mean, std, and range with similar min and max, which means they may have a similar shape, and they have a strong, positive linear relationship

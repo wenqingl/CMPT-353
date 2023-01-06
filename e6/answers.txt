@@ -1,0 +1,8 @@
+1.  I feel like we're p-hacking since we misuse the data analysis. 
+    There are some fake data and we use different approach to 
+    approach the problem.
+
+2.  There could be 7C2 = 21 test. the probability is 1 - 0.95^21 = 0.66
+
+3.  q1s < qs3 < qs2 < partition_sort < merge1 < qs5 < qs4
+    the pair could not be distinguished (qs2, qs3)
