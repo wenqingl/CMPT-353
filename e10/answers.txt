@@ -1,0 +1,15 @@
+1.  (1) the reddit-0 data set and effectively no work
+        9.10s user 0.64s system 186% cpu 5.220 total
+    (2) no schema specified and not caching (on reddit-2 for this and the rest)
+        18.28s user 0.73s system 154% cpu 12.296 total
+    (3) with a schema but not caching
+        15.43s user 0.67s system 164% cpu 9.757 total
+    (4) with both a schema and caching the twice-used DataFrame
+        16.66s user 0.91s system 206% cpu 8.493 total
+
+2.  Most of the time taken to process the reddit-2 data set is in reading the files,
+    since the schema and caching are all about reading data, and there are big improvement
+    with them, which means reading data takes more time.
+
+3.  Right before the join operation because the join operation needs two DataFrame, which 
+    requires more time than one DataFrame operation.
