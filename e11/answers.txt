@@ -1,0 +1,8 @@
+1.  I write the cache when the first join happened. Without the caching,
+    the data frame will be recalculate when using it next time, which spend
+    more time.
+
+2.  with .hint('broadcast'): 45s
+    with .hint('broadcast') and disabling automatic broadcast join: 41s
+    without the hint and disabling automatic broadcast join: 48s
+    without the hint, letting Spark detect broadcast-able join: 52s
